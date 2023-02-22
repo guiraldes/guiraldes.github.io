@@ -1,0 +1,39 @@
+#contenedor {
+    background-color: black;
+    width: 100%;
+}
+
+
+  #cabecera {
+    font-family: 'Montserrat', sans-serif;
+    color: red;
+    text-shadow: 2px, 2px, 2px, black;
+    text-align: center;
+    font-size: 300%;
+    background-color: black;
+  }
+button{
+    width: 9%;
+    background-color: black;
+    color: red;
+    border-color: rgb(27, 23, 23); 
+    font-family: 'Montserrat'
+}
+  .fa-address-card{color: red; font-size: 500%;}
+  .fa-graduation-cap{color: red; font-size: 500%;}
+  .fa-person-digging{color: red; font-size: 500%;}
+  .fa-people-arrows{color: red; font-size: 500%;}
+
+  #menu      {
+    margin-top: 5%;
+    margin-left: 43%;
+    width: 150px;}
+
+  #contenido {
+    background-color: transparent;
+    float: left;
+    width: 550px;}
+
+  #pie {
+    clear: both;
+  }
