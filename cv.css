@@ -1,22 +1,37 @@
-#contenedor {
-    background-color: black;
-    width: 100%;
+body {
+    background: url(imagen/cancha.jpg) #CCC no-repeat;
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
 }
-
+p{
+  font-family: 'Montserrat', sans-serif;
+    color: red;
+    text-shadow: 4px 4px 1px black;
+    text-align: center;
+    font-size: 350%;
+    margin-top: 1%;
+    margin-bottom: 1%;
+    font-weight: bold;
+}
 
   #cabecera {
     font-family: 'Montserrat', sans-serif;
     color: red;
-    text-shadow: 2px, 2px, 2px, black;
     text-align: center;
     font-size: 300%;
-    background-color: black;
+    
+    
   }
 button{
+    font-size: 15px;
+    color: black;
+    text-shadow: 4px 2px 8px white;
     width: 9%;
-    background-color: black;
-    color: red;
-    border-color: rgb(27, 23, 23); 
+    background-color: transparent;
+    
+    
+    border-color: white; 
     font-family: 'Montserrat'
 }
   .fa-address-card{color: red; font-size: 500%;}
@@ -25,14 +40,25 @@ button{
   .fa-people-arrows{color: red; font-size: 500%;}
 
   #menu      {
-    margin-top: 5%;
-    margin-left: 43%;
-    width: 150px;}
+    margin-top: 2%;
+    margin-left: 25%;
+    width: 50%;  
+    font-family: 'Montserrat', sans-serif;
+    color: black;
+    text-shadow: 4px 4px 4px white;
+    text-align: center;
+    font-size: 60%;
+    
+  }
 
   #contenido {
-    background-color: transparent;
-    float: left;
-    width: 550px;}
+    font-family: 'Montserrat', sans-serif;
+    color: red;
+    text-shadow: 2px 1px 2px black;
+    text-align: center;
+    font-size: 100%;
+  }
+    
 
   #pie {
     clear: both;
