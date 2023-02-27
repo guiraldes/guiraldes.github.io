@@ -4,7 +4,8 @@ body {
     background-position: center center;
     background-attachment: fixed;
 }
-p{
+
+#titulo{
   font-family: 'Montserrat', sans-serif;
     color: red;
     text-shadow: 4px 4px 1px black;
@@ -12,34 +13,39 @@ p{
     font-size: 350%;
     margin-top: 1%;
     margin-bottom: 1%;
-    font-weight: bold;
-}
+  }
 
-  #cabecera {
+  #WIKI {
+    float:left;
+    margin-left: 3%
+  }
+
+  #menu {
     font-family: 'Montserrat', sans-serif;
-    color: red;
     text-align: center;
     font-size: 300%;
     
-    
   }
+  span{
+float: initial;
+margin-left: -7%
+  }
+
 button{
-    font-size: 15px;
     color: black;
     text-shadow: 4px 2px 8px white;
     width: 9%;
     background-color: transparent;
-    
-    
-    border-color: white; 
+    border-color: transparent;
     font-family: 'Montserrat'
 }
+  .fa-wikipedia-w{color: white; font-size: 70%;}
   .fa-address-card{color: red; font-size: 500%;}
   .fa-graduation-cap{color: red; font-size: 500%;}
   .fa-person-digging{color: red; font-size: 500%;}
   .fa-people-arrows{color: red; font-size: 500%;}
-
-  #menu      {
+ 
+  #contenido      {
     margin-top: 2%;
     margin-left: 25%;
     width: 50%;  
@@ -51,15 +57,11 @@ button{
     
   }
 
-  #contenido {
-    font-family: 'Montserrat', sans-serif;
-    color: red;
-    text-shadow: 2px 1px 2px black;
-    text-align: center;
-    font-size: 100%;
-  }
-    
-
   #pie {
     clear: both;
+    font-family: 'Montserrat', sans-serif;
+    color: black;
+    text-shadow: 4px 4px 4px white;
+    text-align: center;
+    font-size: 60%;
   }
